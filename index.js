@@ -112,12 +112,13 @@ function adapter(uri, opts) {
     });
 
     sub.on(subEvent, this.onmessage.bind(this));
-
+/*
     function onError(err) {
       self.emit('error', err);
     }
     pub.on('error', onError);
     sub.on('error', onError);
+    */
   }
 
   /**
